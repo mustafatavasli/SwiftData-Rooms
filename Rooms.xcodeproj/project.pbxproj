@@ -11,6 +11,8 @@
 		D6921AA12C466D3800D16F43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6921AA02C466D3800D16F43 /* ContentView.swift */; };
 		D6921AA32C466D3A00D16F43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6921AA22C466D3A00D16F43 /* Assets.xcassets */; };
 		D6921AA62C466D3A00D16F43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6921AA52C466D3A00D16F43 /* Preview Assets.xcassets */; };
+		D6921AAE2C466D5A00D16F43 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6921AAD2C466D5A00D16F43 /* Room.swift */; };
+		D6921AB12C466EB000D16F43 /* UIColorValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6921AB02C466EB000D16F43 /* UIColorValueTransformer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D6921AA02C466D3800D16F43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D6921AA22C466D3A00D16F43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6921AA52C466D3A00D16F43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6921AAD2C466D5A00D16F43 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		D6921AB02C466EB000D16F43 /* UIColorValueTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorValueTransformer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		D6921A9D2C466D3800D16F43 /* Rooms */ = {
 			isa = PBXGroup;
 			children = (
+				D6921AAF2C466E9A00D16F43 /* Value Transformers */,
+				D6921AAC2C466D4D00D16F43 /* Models */,
 				D6921A9E2C466D3800D16F43 /* RoomsApp.swift */,
 				D6921AA02C466D3800D16F43 /* ContentView.swift */,
 				D6921AA22C466D3A00D16F43 /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				D6921AA52C466D3A00D16F43 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6921AAC2C466D4D00D16F43 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D6921AAD2C466D5A00D16F43 /* Room.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D6921AAF2C466E9A00D16F43 /* Value Transformers */ = {
+			isa = PBXGroup;
+			children = (
+				D6921AB02C466EB000D16F43 /* UIColorValueTransformer.swift */,
+			);
+			path = "Value Transformers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +160,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6921AA12C466D3800D16F43 /* ContentView.swift in Sources */,
+				D6921AB12C466EB000D16F43 /* UIColorValueTransformer.swift in Sources */,
 				D6921A9F2C466D3800D16F43 /* RoomsApp.swift in Sources */,
+				D6921AAE2C466D5A00D16F43 /* Room.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
